@@ -1,0 +1,92 @@
+#ac-globalfooter {
+    font-style: normal;
+    -webkit-locale: "pt-BR";
+    unicode-bidi: isolate;
+    text-size-adjust: 100%;
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    pointer-events: auto;
+    -webkit-font-smoothing: antialiased;
+    direction: ltr;
+    text-align: left;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    background-color: #f5f5f7;
+    color: #1d1d1f;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    min-width: 320px;
+}
+
+#ac-gf-content {
+    font-style: normal;
+    text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    direction: ltr;
+    color: #1d1d1f;
+    box-sizing: content-box;
+    pointer-events: auto;
+    letter-spacing: normal;
+    font-size: 1em;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    text-align: inherit;
+    margin: 0 auto;
+    max-width: 980px;
+    padding: 0 22px;
+    padding-left: calc(max(22px, env(safe-area-inset-left)));
+    padding-right: calc(max(22px, env(safe-area-inset-right)));
+}
+
+#ac-gf-label {
+    font-style: normal;
+    text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    direction: ltr;
+    box-sizing: content-box;
+    margin: 0;
+    pointer-events: auto;
+    letter-spacing: normal;
+    font-size: 1em;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    text-align: inherit;
+    color: inherit;
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(0px 0px 99.9% 99.9%);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    border: 0;
+}
+
+#ac-gf-breadcrumbs {
+    font-style: normal;
+    text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    direction: ltr;
+    box-sizing: content-box;
+    margin: 0;
+    pointer-events: auto;
+    letter-spacing: normal;
+    font-size: 1em;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    text-align: inherit;
+    display: block;
+    color: #86868b;
+    padding: 17px 0 21px;
+    padding-bottom: calc(max(21px, env(safe-area-inset-bottom)));
+    padding-top: 34px;
+    border-top: none;
+}
