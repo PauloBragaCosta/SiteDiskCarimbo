@@ -4,7 +4,7 @@ import '../styles/components/topbar.css';
 
 export default function Topbar() {
     return (
-		<div id="topbar" role="navigation" aria-label="main navigation">
+		<div id="topbar">
 			<div id="container">
 				<div id="topbar-brand"> 
 					<a href="/"> 

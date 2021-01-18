@@ -6,7 +6,7 @@ import '../styles/components/insta.css';
 export default function Insta() {
     return (
 		<div id="home-main-insta">
-		<div id="home-body">
+		<div id="home-intabody">
 			<div id="container">
 				<div id="columns">
 					<div id="column-mobile-screenshots">

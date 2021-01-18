@@ -16,8 +16,8 @@ export default function whats() {
 						</p>
 					</div>
 					<div id="column-mobile-screenshots">
-						<img id="screenshot1" src="https://signal.org/assets/features/iphone-screenshot-light-a105c976107baef33fe8d3ae6f38cdd691ba6834fbc80d63a6eefb318a7a3b83.png" alt=""/>
-						<img id="screenshot2" src="https://signal.org/assets/features/pixel-screenshot-light-886fde7f302b53617c53b65449dbcd938463aacf95f46c15ef6e204c2b568140.png" alt=""/>
+						<div id="screenshot1" />
+						
 					</div>
 				</div>
 			</div>

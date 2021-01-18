@@ -11,7 +11,7 @@ align-items: stretch;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
-background-color: #9DBBF8;
+background-image: url(https://www.apple.com/v/mac/home/ba/images/overview/bigsur/big_sur__gf375i2898ia_large_2x.jpg);
 color: #1b1b1b;
 max-height: 680px;
 }
@@ -86,21 +86,21 @@ line-height: 28px;
 }
 
 #screenshot1 {
-height: auto;
-max-width: 100%;
-transform: rotate(22.5deg);
-margin-left: 0px;
-margin-top: 46px;
-width: 320px;
-}
+/* height: auto; */
+/* max-width: 100%; */
+transform: rotate(2.5deg);
+/* margin-left: 0px; */
+margin-top: -900px;
+background-size: 472px 2845px;
+box-sizing: inherit;
+align-items: center;
+display: inline-flex;
+justify-content: center;
+background-repeat: no-repeat;
+border: none;
+background-image: url(../../images/carimbo.svg);
+height: 1600px;
+width: 630px;
 
-#screenshot2 {
-height: auto;
-max-width: 100%;
-transform: rotate(22.5deg);
-width: 300px;
-margin-left: -32px;
-position: absolute;
-top: 0px;
 }
 
