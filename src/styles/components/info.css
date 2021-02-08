@@ -67,17 +67,18 @@
     top: 5.2%;
     bottom: 0%;
     
-background: url(C:\Users\paulo\Documents\Projetos\sitenovodoscarimbos\SiteDiskCarimbo\src\components\Molde.png);
+background: url('../../images/Molde.png');
 
 }
 
 #carimbo {
     position: absolute;
-    left: 66.54%;
-    right: 12.15%;
-    top: 18.09%;
-    bottom: 5.82%;
+left: 66.54%;
+right: 12.15%;
+top: 18.09%;
+bottom: 5.82%;
+
     
-    background: url(C:\Users\paulo\Documents\Projetos\sitenovodoscarimbos\SiteDiskCarimbo\src\components\carimbo.png);
+    background: url('../../images/carimbo.png');
     filter: drop-shadow(0px 4px 7px rgba(0, 0, 0, 0.25));
 }
