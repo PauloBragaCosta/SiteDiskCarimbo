@@ -6,12 +6,12 @@ export default function info() {
     return (
 		<div id="info">
             <div id="QuadroBrancoInfo">
-             <a id="Titulo">Carimbos automáticos</a>
-             <a id="Subtitulo">Produtos modernos que visam garantir praticidade e agilidade no seu dia-a-dia.</a>
-             <a id="SaibaMais" href="/">Saiba mais </a>
+             <div id="Titulo">Carimbos automáticos</div>
+             <div id="Subtitulo">Produtos modernos que visam garantir praticidade e agilidade no seu dia-a-dia.</div>
+             <div id="SaibaMais">Saiba mais </div>
             
-            <div id="sombra">
-            </div>
+            <div id="sombra"/>
+
             <div id="carimbo"/>
 
 
