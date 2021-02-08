@@ -1,156 +1,92 @@
+body {
+    margin: 0;
+    background-color: gray;
+}
+
 #topbar {
--webkit-font-smoothing: antialiased;
-text-rendering: optimizeLegibility;
-text-size-adjust: 100%;
-font-size: 1em;
-font-weight: 400;
-line-height: 1.5;
-color: #1b1b1b;
-font-family: Inter, sans-serif;
-box-sizing: inherit;
-background-color: rgba(255, 255, 255, 0.72);
-backdrop-filter: saturate(180%) blur(20px);
-align-items: stretch;
-display: flex;
-min-height: 3.25rem;
-border-bottom: 1px solid #ebeaeb;
-padding: 16px 0;
-left: 0;
-position: fixed;
-right: 0;
-z-index: 30;
-top: 0;
-}
-
-#container {
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-    text-size-adjust: 100%;
-    font-size: 1em;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #1b1b1b;
-    font-family: Inter, sans-serif;
-    box-sizing: inherit;
-    flex-grow: 1;
-    margin: 0 auto;
-    position: relative;
-    max-width: 1344px;
-    align-items: stretch;
-    display: flex;
-    min-height: 3.25rem;
+    position: absolute;
     width: 100%;
+    height: 56px;
+    left: 0px;
+    top: 0px;
 }
 
-#topbar-brand {
-    -webkit-font-smoothing: antialiased;
-text-rendering: optimizeLegibility;
-text-size-adjust: 100%;
-font-size: 1em;
-font-weight: 400;
-line-height: 1.5;
-color: #1b1b1b;
-font-family: Inter, sans-serif;
-box-sizing: inherit;
-display: flex;
-flex-shrink: 0;
-min-height: 3.25rem;
-align-items: center;
-padding: 0px;
-margin-left: -6rem;
+#logo {
+    position: absolute;
+    left: 5.27%;
+    right: 91.8%;
+    top: 8.93%;
+    bottom: 10.65%;
+    background: url(C:\Users\paulo\Documents\Projetos\sitenovodoscarimbos\SiteDiskCarimbo\src\images\logo.png);
+    background-repeat: no-repeat;
 }
 
-#signal-logo {
-background-size:315px 1897px;
-box-sizing: inherit;
-align-items: center;
-display: inline-flex;
-justify-content: center;
-background-repeat: no-repeat;
-border: none;
-background-image: url(../../images/Logo.svg);
-height: 1897px;
-width: 315px;
-margin-left: -.25rem;
-margin-right: -.25rem;
-margin-top:-60.5rem;
-margin-bottom:-59rem;
-
-
+#Nome {
+    position: absolute;
+    width: 147px;
+    height: 29px;
+    left: 116px;
+    top: 14px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    color: #515152;
+    text-decoration: none
 }
 
-#topbar-menu {
--webkit-font-smoothing: antialiased;
-text-rendering: optimizeLegibility;
-text-size-adjust: 100%;
-font-size: 1em;
-font-weight: 400;
-line-height: 1.5;
-color: #1b1b1b;
-font-family: Inter, sans-serif;
-box-sizing: inherit;
-align-items: stretch;
-display: flex;
-flex-grow: 1;
-flex-shrink: 0;
-margin-right: -6rem;
+#botao {
+    position: absolute;
+    width: 141px;
+    height: 31px;
+    left: 78%;
+    top: 13px;
+    filter: drop-shadow(0px 4px 7px rgba(0, 0, 0, 0.25));
 }
 
-#navbar-end {
-    -webkit-font-smoothing: antialiased;
-text-rendering: optimizeLegibility;
-text-size-adjust: 100%;
-font-size: 1em;
-font-weight: 400;
-line-height: 1.5;
-color: #1b1b1b;
-font-family: Inter, sans-serif;
-box-sizing: inherit;
-align-items: stretch;
-display: flex;
-justify-content: flex-end;
-margin-left: auto;
+#Whatsapp {
+    position: absolute;
+    left: 4.94%;
+    right: 78.09%;
+    top: 12%;
+    bottom: 12%;
+    background: url(C:\Users\paulo\Documents\Projetos\sitenovodoscarimbos\SiteDiskCarimbo\src\images\whatsapp.png);
+    background-repeat: no-repeat;
 }
 
-#navbar-item {
-
-font-family: Inter, sans-serif;
-
-font-size: 17px;
-line-height: 1.17648;
-font-weight: 400;
-letter-spacing: -.022em;
-min-width: 28px;
-padding-left: 16px;
-padding-right: 16px;
-padding-top: 8px;
-padding-bottom: 8px;
-border-radius: 18px;
-background: #00e34c;
-color: #fff;
-text-decoration: none;
-margin-top: 11px;
-margin-bottom: 11px;
+#whats {
+    position: absolute;
+    left: 23.47%;
+    right: 4.19%;
+    top: 21.74%;
+    bottom: 16.97%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none
 }
 
-#icon-instagram{
--webkit-font-smoothing: antialiased;
-text-rendering: optimizeLegibility;
-text-size-adjust: 100%;
-font-weight: 400;
-font-family: Inter, sans-serif;
-line-height: 1.5;
-cursor: pointer;
-color: #1b1b1b;
-font-size: 16px;
-box-sizing: inherit;
-align-items: center;
-display: inline-flex;
-justify-content: center;
-background-repeat: no-repeat;
-background-image: url(https://signal.org/assets/icons/instagram-63876ccfbad266bbbc5b822d9d3fc0c92ebcbf1e3be12033f75ec3ac71a95bf9.svg);
-height: 20px;
-width: 20px;
-margin-left: -.25rem;
-margin-right: -.25rem;
+#verde {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #06D755;
+    border-radius: 100px;
+}
+
+#back {
+    position: absolute;
+    width: 1366px;
+    height: 56px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
 }

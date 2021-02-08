@@ -4,24 +4,29 @@ import '../styles/components/topbar.css';
 
 export default function Topbar() {
     return (
-		<div id="topbar">
-			<div id="container">
-				<div id="topbar-brand"> 
-					<a href="/"> 
-						<div id="signal-logo"></div>
-					</a> 
+		<div id="home">
+			<div id="topbar">
+				<div id="back">
+				<a href="/"> 
+					<div id="logo"></div>
+				</a> 
 
+				<a id="Nome" href="/">Diskcarimbos</a>
+
+				<div id="botao">
+					<div id="verde">
+						<div id="Whatsapp"></div>
+						
+						<a id="whats" href="/">Fazer pedido</a>
+					</div>
+					
+					
+				</div>
 				
 				</div>
-				<div id="topbar-menu">
-					<div id="navbar-end">
-						<a id="navbar-item" href="/download/">Fazer pedido</a>
-						
-							</div>
-							</div>
-							</div>
-							</div>
+			</div>
 
+		</div>
 							
     );
 }
